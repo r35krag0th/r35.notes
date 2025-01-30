@@ -10,14 +10,18 @@ So here we are. Clean and simple markdown. I've largely built this around using 
 
 There is much to do and I'm sure I'll be tweaking this for a while.
 
+Credit to [dhananjaylatkar/notes.nvim](https://github.com/dhananjaylatkar/notes.nvim) for some of the base code and inspiration to keep it simple.
+
 ## What this is (and isn't)
 
 This isn't some fancy solution that does anything magical. It is just adding keybinds to make navigation easier. The big QoL improvement is _yesterday_ and _tomorrow_ intelligently skip the weekends. I mainly use this for work so I always hated having to skip over the weekends when I was looking for something.
 
 ## The Bindings
 
-| Mode | Key               | Action                           |
-| ---- | ----------------- | -------------------------------- |
-| `n`  | `<localleader>ny` | Go to yesterday (`:RNYesterday`) |
-| `n`  | `<localleader>nd` | Go to today (`:RNToday`)         |
-| `n`  | `<localleader>nt` | Go to tomorrow (`:RNTomorrow`)   |
+| Mode | Key               | Action                                          |
+| ---- | ----------------- | ----------------------------------------------- |
+| `n`  | `<localleader>ny` | Go to yesterday (`:RNYesterday`)                |
+| `n`  | `<localleader>nd` | Go to today (`:RNToday`)                        |
+| `n`  | `<localleader>nt` | Go to tomorrow (`:RNTomorrow`)                  |
+| `n`  | `<localleader>ng` | Grep for contents using mini.pick (`:RNGrep`)   |
+| `n`  | `<localleader>nf` | Find a file by name using mini.pick (`:RNFind`) |
